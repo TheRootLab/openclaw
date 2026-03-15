@@ -1,13 +1,6 @@
 name: 阿里云镜像发布 (OpenClaw)
 
 on:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - "docs/**"
-      - "**/*.md"
-      - "**/*.mdx"
   workflow_dispatch:
     inputs:
       tag_override:
